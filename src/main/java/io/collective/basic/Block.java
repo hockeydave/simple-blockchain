@@ -4,6 +4,9 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * A Block entity within a blockchain
+ */
 public class Block {
     private final String previousHash;
     private final long timestamp;
